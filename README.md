@@ -54,16 +54,3 @@ pip install textual
 ```
 3. Run locally and iterate on the Python files listed above.
 
-## Contributing
-
-- Open an issue or pull request for bugs and feature requests.
-- Add tests or example data under `Data/` if you change persistence behavior.
-- Consider adding a `requirements.txt` or `pyproject.toml` to make dependencies explicit.
-
-## Notes & Next Steps
-
-- The repo currently does not include an explicit license file or a requirements file. Consider adding a LICENSE and a requirements file (or pyproject) to clarify usage and dependencies.
-- If you want, I can add this README.md to the repository and open a PR with the new file, or produce a commit you can apply locally.
-
----
-If you'd like the README changed (more detail on controls, screenshots, or explicit dependency pins), tell me which details to include and I will update it.
