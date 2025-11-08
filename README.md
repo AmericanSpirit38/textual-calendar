@@ -1,5 +1,12 @@
 # Textual Calendar
 
+[![GitHub Actions](https://img.shields.io/github/actions/workflow/status/AmericanSpirit38/textual-calendar/ci.yml?branch=main)](https://github.com/AmericanSpirit38/textual-calendar/actions)
+[![Release](https://img.shields.io/github/v/release/AmericanSpirit38/textual-calendar?label=release)](https://github.com/AmericanSpirit38/textual-calendar/releases)
+[![Stars](https://img.shields.io/github/stars/AmericanSpirit38/textual-calendar?style=social)](https://github.com/AmericanSpirit38/textual-calendar/stargazers)
+[![Issues](https://img.shields.io/github/issues/AmericanSpirit38/textual-calendar)](https://github.com/AmericanSpirit38/textual-calendar/issues)
+[![License](https://img.shields.io/github/license/AmericanSpirit38/textual-calendar)](https://github.com/AmericanSpirit38/textual-calendar/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+
 Simple TUI calendar built on the Textual framework.
 
 ## Overview
@@ -17,9 +24,9 @@ Key files
 
 - Python 3.8+ (newer recommended)
 - Textual framework (install via pip)
-- Other dependencies: none explicitly listed in the repo. If you encounter missing imports, install the required package(s) shown in the import errors.
 
 Install Textual:
+
 ```bash
 pip install textual
 ```
@@ -27,10 +34,13 @@ pip install textual
 ## Run
 
 From the repository root, run:
+
 ```bash
 python Start.py
 ```
+
 or
+
 ```bash
 python3 Start.py
 ```
@@ -44,13 +54,16 @@ The repository contains `JsonManagement.py` which provides JSON read/write helpe
 ## Development
 
 1. Clone the repo:
+
 ```bash
 git clone https://github.com/AmericanSpirit38/textual-calendar.git
 cd textual-calendar
 ```
+
 2. Install dependencies:
+
 ```bash
 pip install textual
 ```
-3. Run locally and iterate on the Python files listed above.
 
+3. Run locally and iterate on the Python files listed above.
