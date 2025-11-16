@@ -47,23 +47,38 @@ python3 Start.py
 
 This will launch the Textual TUI. Follow on-screen controls (arrow keys, shortcuts) provided by the UI. If the application expects persisted data, check or create files in the `Data/` folder.
 
+## Commands & Shortcuts
+
+The application defines the following custom keybindings and actions (extracted from `Start.py`):
+
+- a — Add Event
+  - action: add_event
+  - What it does: opens the add-event flow (implemented via the app's AddEvent routine)
+
+- t — Today
+  - action: today
+  - What it does: filters the events table to show events for today
+
+- ctrl+t — Tomorrow
+  - action: tomorrow
+  - What it does: filters the events table to show events for tomorrow
+
+- w — This Week
+  - action: week
+  - What it does: displays events within the current week
+
+- n — Next Week
+  - action: next_week
+  - What it does: displays events within the next week
+
+- / — Focus Search
+  - action: focus_search
+  - What it does: focuses the search input so you can type a query immediately
+
+- Escape — Clear Search / Unfocus
+  - action: clear_search
+  - What it does: clears the search input, resets the query filter, and blurs the search box
+
 ## Data & Persistence
 
 The repository contains `JsonManagement.py` which provides JSON read/write helpers. Saved events and configuration are expected to live in the `Data/` folder. Back up the `Data/` directory before making large changes.
-
-## Development
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/AmericanSpirit38/textual-calendar.git
-cd textual-calendar
-```
-
-2. Install dependencies:
-
-```bash
-pip install textual
-```
-
-3. Run locally and iterate on the Python files listed above.
