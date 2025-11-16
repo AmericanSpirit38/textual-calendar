@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: textual-calendar
+    env: docker
+    repo: https://github.com/AmericanSpirit38/textual-calendar
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
+    envVars:
+      - key: PORT
+        value: "8080"
