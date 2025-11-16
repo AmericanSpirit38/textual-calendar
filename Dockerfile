@@ -5,4 +5,4 @@ COPY . /app
 
 RUN pip install --no-cache-dir textual
 
-CMD ["textual", "run", "your_app.py", "--web", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["textual", "run", "start.py", "--web", "--host", "0.0.0.0", "--port", "8080"]
